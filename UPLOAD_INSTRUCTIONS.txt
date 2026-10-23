@@ -1,0 +1,11 @@
+CUNY AND THE CITY — SIMPLE PUBLICATION GUIDE
+
+1. In GitHub, create a PUBLIC repository, for example cuny-project1.
+2. Upload everything INSIDE the public_site folder to the repository root (index.html, python-demonstration.html, superset-map.html, manuals/).
+3. In GitHub Settings > Pages, set Deploy from a branch > main > /(root). Wait for GitHub to supply the Pages URL and test each page.
+4. Open WORDPRESS_CUSTOM_HTML_BLOCK.html in Notepad. Replace all instances of https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO/ with your real GitHub Pages root URL (include ending /). Save.
+5. In https://jeanmarcpetit.commons.gc.cuny.edu/wp-admin/ create a NEW Page named CUNY and the City — Project 1. Add a Custom HTML block; paste the entire WordPress file contents.
+6. To display Tableau inline, try adding a separate Shortcode block with the text in WORDPRESS_TABLEAU_SHORTCODE.txt. If the platform blocks inline Tableau, use the already included link instead.
+7. Preview and Save Draft; test links to every dashboard and manual. Publish only after review. Add the page under Research using Appearance > Menus, or the navigation editor available for the active theme. Existing homepage is not changed.
+
+Important: WordPress on Commons can remove iframe and JavaScript code. Therefore, the WordPress-safe file links to dashboards hosted on GitHub Pages, whereas public_site/index.html EMBEDS all three views (Tableau, Python sample, and Leaflet sample) using iframes. To show the three embedded dashboards together from WordPress, link to the GitHub Pages showcase page from your WordPress page. The Python sample and Leaflet sample are NOT final NYC research outputs. The Superset service itself is not bundled as a public server.

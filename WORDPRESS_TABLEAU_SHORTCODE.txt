@@ -1,0 +1,3 @@
+[embed]https://public.tableau.com/app/profile/jean.marc.petit/viz/JeanMarcCUNYandtheCity/00CUNYANDTHECITYALLRESEARCH[/embed]
+
+Place this in a separate WordPress Shortcode block within the Tableau section. If Commons does not recognize it, keep the Open Tableau dashboard link.
